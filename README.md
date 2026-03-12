@@ -71,37 +71,31 @@ Higher score → More comfortable weather.
 
 ---
 
-## ⚙ How to Run the Project
 
-### 1️⃣ Clone the repository
+# ⚙️ Setup Instructions (Backend & Frontend)
+---
+**Download the Project**  
+Go to your GitHub repository.  
+Click Code → Download ZIP.  
+Extract the ZIP file to a folder on your computer.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/weather-comfort-dashboard
-```
+**Open in Visual Studio 2022**  
+Launch Visual Studio.  
+Click Open a project or solution and select **Inventory_Management.sln**.
 
-### 2️⃣ Open in Visual Studio
+**Restore and Build**  
+Visual Studio will automatically restore all NuGet packages.  
+Build the project to ensure everything is set up correctly.
 
-Open the solution file and restore packages.
+**Run the Project**  
+Press F5 or click Run in Visual Studio.  
+The application will start, and you can open it in your browser.
 
-### 3️⃣ Configure API Keys
+**Frontend and Backend Together**  
+Since this is an ASP.NET Core MVC project, the frontend pages (Views) and assets (wwwroot) are already included.  
+No separate frontend setup is required, everything runs together.
 
-Update `appsettings.json`:
-
-```json
-"OpenWeather": {
-  "ApiKey": "YOUR_API_KEY"
-}
-
-"Auth0": {
-  "Domain": "YOUR_DOMAIN",
-  "ClientId": "YOUR_CLIENT_ID",
-  "ClientSecret": "YOUR_CLIENT_SECRET"
-}
-```
-
-### 4️⃣ Run the Application
-
-Start the project from Visual Studio.
+---
 
 ---
 
