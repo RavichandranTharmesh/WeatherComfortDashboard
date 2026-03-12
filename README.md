@@ -14,13 +14,21 @@ The results are displayed in a responsive dashboard that works on both desktop a
 
 ---
 ## 📷 Dashboard Preview
-<img width="882" height="805" alt="Screenshot (2050)" src="https://github.com/user-attachments/assets/94eb7da5-8dfa-4efb-b864-7b4ac8150faf" />
-<img width="664" height="659" alt="Screenshot (2053)" src="https://github.com/user-attachments/assets<img width="1785" height="815" alt="Screenshot (2051)" src="https://github.com/user-attachments/assets/65e10a50-8b33-4be5-b9ae-9deec978d209" />
-/81c3af5b-31df-4295-9a67-a0f7c17b37d1" />
-<img width="1804" height="822" alt="Screenshot (2055)" src="https://github.com/user-attachments/assets/e01b1c54-33a2-4a97-b68e-90fb06d3c4a1" />
-<img width="1735" height="834" alt="Screenshot (2052)" src="https://github.com/user-attachments/assets/1a452e45-19a0-49e0-ac48-a55763d730da" />
-<img width="1808" height="822" alt="Screenshot (2056)" src="https://github.com/user-attachments/assets/8c164428-06d2-460b-a4e1-c0152f210afd" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2a5a6b55-d05c-4a16-9de5-dcf24796046c" width="420"/>
+  <img src="https://github.com/user-attachments/assets/586dfdbf-167f-4ebf-b8bd-d6daaff54f39" width="420"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c3021ae6-08f6-427f-917d-6e71f22606cd" width="420"/>
+  <img src="https://github.com/user-attachments/assets/97157bef-8e4a-42be-ab6e-719467396a5d" width="420"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/acc5d084-8b8d-4b82-811b-0b7af21ed6fe" width="420"/>
+  <img src="https://github.com/user-attachments/assets/6849e12b-de8f-4da1-9771-c5851527a9f8" width="420"/>
+</p>
 ---
 ## ✨ Key Features
 
@@ -71,7 +79,6 @@ Higher score → More comfortable weather.
 
 ---
 
-
 # ⚙️ Setup Instructions (Backend & Frontend)
 ---
 **Download the Project**  
@@ -81,7 +88,7 @@ Extract the ZIP file to a folder on your computer.
 
 **Open in Visual Studio 2022**  
 Launch Visual Studio.  
-Click Open a project or solution and select **Inventory_Management.sln**.
+Click Open a project or solution and select **WeatherComfortDashboard-master.sln**.
 
 **Restore and Build**  
 Visual Studio will automatically restore all NuGet packages.  
@@ -96,9 +103,6 @@ Since this is an ASP.NET Core MVC project, the frontend pages (Views) and assets
 No separate frontend setup is required, everything runs together.
 
 ---
-
----
-
 ## 🔐 Test Login
 
 Use the following credentials:
