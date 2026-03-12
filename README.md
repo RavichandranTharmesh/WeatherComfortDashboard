@@ -13,7 +13,15 @@ The application reads a list of cities from a JSON file, retrieves live weather 
 The results are displayed in a responsive dashboard that works on both desktop and mobile devices.
 
 ---
+## 📷 Dashboard Preview
+<img width="882" height="805" alt="Screenshot (2050)" src="https://github.com/user-attachments/assets/94eb7da5-8dfa-4efb-b864-7b4ac8150faf" />
+<img width="664" height="659" alt="Screenshot (2053)" src="https://github.com/user-attachments/assets<img width="1785" height="815" alt="Screenshot (2051)" src="https://github.com/user-attachments/assets/65e10a50-8b33-4be5-b9ae-9deec978d209" />
+/81c3af5b-31df-4295-9a67-a0f7c17b37d1" />
+<img width="1804" height="822" alt="Screenshot (2055)" src="https://github.com/user-attachments/assets/e01b1c54-33a2-4a97-b68e-90fb06d3c4a1" />
+<img width="1735" height="834" alt="Screenshot (2052)" src="https://github.com/user-attachments/assets/1a452e45-19a0-49e0-ac48-a55763d730da" />
+<img width="1808" height="822" alt="Screenshot (2056)" src="https://github.com/user-attachments/assets/8c164428-06d2-460b-a4e1-c0152f210afd" />
 
+---
 ## ✨ Key Features
 
 ✔ Read city codes from `cities.json`
