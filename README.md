@@ -29,16 +29,17 @@ The results are displayed in a responsive dashboard that works on both desktop a
   <img src="https://github.com/user-attachments/assets/acc5d084-8b8d-4b82-811b-0b7af21ed6fe" width="420"/>
   <img src="https://github.com/user-attachments/assets/6849e12b-de8f-4da1-9771-c5851527a9f8" width="420"/>
 </p>
+
 ---
 
 ## ✨ Key Features
 
-✔ Read city codes from `cities.json`
+✔ Read city codes from cities.json
 ✔ Fetch real-time weather data using OpenWeatherMap API
-✔ Custom **Comfort Index Score** calculation
+✔ Custom Comfort Index Score calculation
 ✔ Rank cities based on weather comfort
-✔ Server-side caching using **IMemoryCache**
-✔ Secure login using **Auth0 authentication**
+✔ Server-side caching using IMemoryCache
+✔ Secure login using Auth0 authentication
 ✔ Mobile responsive dashboard
 
 ---
