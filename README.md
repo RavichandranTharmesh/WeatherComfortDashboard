@@ -16,8 +16,8 @@ The results are displayed in a responsive dashboard that works on both desktop a
 ## 📷 Dashboard Preview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2a5a6b55-d05c-4a16-9de5-dcf24796046c" width="420"/>
-  <img src="https://github.com/user-attachments/assets/586dfdbf-167f-4ebf-b8bd-d6daaff54f39" width="420"/>
+  <img src="https://github.com/user-attachments/assets/2a5a6b55-d05c-4a16-9de5-dcf24796046c" width="420" height="300"/>
+  <img src="https://github.com/user-attachments/assets/586dfdbf-167f-4ebf-b8bd-d6daaff54f39" width="420"height="300"/>
 </p>
 
 <p align="center">
