@@ -1,0 +1,133 @@
+﻿ @model List<WeatherComfortDashboard.Models.ComfortResult>
+
+@{
+    ViewData["Title"] = "Weather Comfort Dashboard";
+}
+
+<div class="container mt-4">
+
+    ```
+    <h2 class="text-center mb-4">Weather Comfort Dashboard</h2>
+
+    <div class="d-flex justify-content-between mb-3">
+        <input type="text" id="searchInput" class="form-control w-50" placeholder="Search city...">
+
+        <button id="darkToggle" class="btn btn-dark">Change Mode</button>
+    </div>
+
+    <div class="table-responsive">
+
+        <table id="weatherTable" class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Rank</th>
+                    <th>City</th>
+                    <th>Weather</th>
+                    <th>Temperature (°C)</th>
+                    <th>Comfort Score</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var city in Model)
+                {
+                    <tr>
+                        <td>@city.Rank</td>
+                        <td>@city.CityName</td>
+                        <td>@city.WeatherDescription</td>
+                        <td>@city.Temperature</td>
+                        <td>@city.ComfortScore</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+    <div class="mt-5">
+        <h4 class="text-center">Temperature by City</h4>
+        <canvas id="tempChart"></canvas>
+    </div>
+    ```
+
+</div>
+
+<style>
+    .dark-mode {
+        background-color: #121212;
+        color: white;
+    }
+
+    .dark-mode table {
+        color: white;
+    }
+
+    .dark-mode thead {
+        background-color: #333;
+    }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+
+    document.getElementById("darkToggle").addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
+
+    document.getElementById("searchInput").addEventListener("keyup", function () {
+
+        var filter = this.value.toLowerCase();
+        var rows = document.querySelectorAll("#weatherTable tbody tr");
+
+        rows.forEach(function (row) {
+
+            var city = row.cells[1].textContent.toLowerCase();
+
+            if (city.includes(filter)) {
+                row.style.display = "";
+            }
+            else {
+                row.style.display = "none";
+            }
+
+        });
+
+    });
+
+    var cityNames = [
+        @foreach (var city in Model)
+        {
+                @: "@city.CityName",
+        }
+    ];
+
+    var temperatures = [
+        @foreach (var city in Model)
+        {
+                @: @city.Temperature,
+        }
+    ];
+
+    const ctx = document.getElementById('tempChart');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: cityNames,
+            datasets: [{
+                label: 'Temperature (°C)',
+                data: temperatures,
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: true
+                }
+            }
+        }
+    });
+
+</script>
+ 
